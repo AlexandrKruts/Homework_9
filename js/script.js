@@ -43,3 +43,25 @@ function getDiffDays(dateStart, dateEnd) {
 // console.log(isWeekend("2022-02-12")); // true
 // console.log(isWeekend("2022-02-13")); // true
 // console.log(isWeekend("2022-02-09")); // false
+
+//4
+
+// const person = {
+//   fullName: "Sherlock Holmes",
+//   address: {
+//     street: "Baker Street",
+//     city: "London",
+//     house: "221b",
+//   },
+// };
+// let str = JSON.stringify(person);
+// console.log(str);
+// console.log("----------------------------------------");
+// let obj = JSON.parse(str);
+// console.log(obj);
+// console.log("----------------------------------------");
+// let { fullName } = person;
+// let { street } = person.address;
+// let { city } = person.address;
+// let { house } = person.address;
+// console.log(`${fullName}, ${street}, ${city}, ${house}`);
