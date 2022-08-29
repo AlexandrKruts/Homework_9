@@ -28,3 +28,18 @@ function getDiffDays(dateStart, dateEnd) {
   console.log(getDiffDays("2020-01-01", "2020-03-15")); // 74
   console.log(getDiffDays("2222222222", "2020-03-15")); 
   console.log(getDiffDays("2021-01-02", "2020-03-15")); // Error: your start date is later than end
+
+  //3
+
+// function isWeekend(Daate) {
+//   let date = new Date(Daate);
+//   let day = date.getDay(Daate);
+//   if (day === 6 || day === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(isWeekend("2022-02-12")); // true
+// console.log(isWeekend("2022-02-13")); // true
+// console.log(isWeekend("2022-02-09")); // false
